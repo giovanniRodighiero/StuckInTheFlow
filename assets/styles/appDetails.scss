@@ -1,0 +1,63 @@
+@import "shared";
+#appDetails{
+  .intro{
+    text-align: center;
+    h1{
+      background-color: $blue;
+      color: white;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      font-weight: normal;
+      font-size: $grande;
+    }
+    .price{
+      font-style: italic;
+      font-weight: lighter;
+    }
+    img{
+      width: 15%;
+    }
+  }//fine .intro
+  #subTitle{
+    padding-left: 1em;
+    padding-right: 1em;
+    .desc-breve{
+      border-left: 1px solid $blue;
+      margin-left: 1em;
+      padding-left: 2em;
+      line-height: normal;
+      h2{
+        font-weight: normal;
+        font-size: 200%;
+        small{
+          color: #777;
+          font-size: 70%;
+        }
+      }
+    }
+  }// fine #subtitle
+  #info{
+    text-align: center;
+    .description{
+      font-size: 105%;
+      margin-bottom: 1em;
+      h2{
+        border-bottom: 1px solid #eee;
+      }
+      p,ul{
+        text-align: left;
+        margin-left: 2em;
+        list-style-type: circle;
+      }
+    }
+    .screenshot{
+      font-size: 105%;
+      h2{
+        border-bottom: 1px solid #eee;
+      }
+      img{
+        margin-top: 1em;
+      }
+    }
+  }
+}

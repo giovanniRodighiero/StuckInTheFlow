@@ -1,0 +1,161 @@
+ {
+  "index": {
+     "title" : "Homepage | Stuck In The Flow",
+     "metaTags":[
+       {"name":"author", "content": "Giovanni Rodighiero"},
+       {"name":"keywords", "content": "Stuck in the flow, applications, app, algebra, matrix, regressions, android, windows phone"},
+       {"name":"description", "content": "Website of stuck in the flow applications for android and windows phone systems"}
+       ],
+     "linkTags":[
+       {"url":"stylesheets/main.css"}
+     ],
+     "bootstrapjs": "javascript/bootstrap.min.js",
+     "idMain":"index"
+   },
+   "applications":{
+     "title" : "Applications | Stuck In The Flow",
+     "metaTags":[
+       {"name":"author", "content": "Giovanni Rodighiero"},
+       {"name":"keywords", "content": "Stuck in the flow, applications, app, algebra, matrix, regressions,game, free time, study, android, windows phone"},
+       {"name":"description", "content": "All the applications made by stuck in the flow to help you study or for your free time"}
+       ],
+     "linkTags":[
+       {"url":"stylesheets/main.css"}
+     ],
+     "bootstrapjs": "javascript/bootstrap.min.js",
+     "idMain":"applications",
+     "studyApps":[],
+     "freeTimeApps":[]
+   },
+   "about":{
+     "title" : "About | Stuck In The Flow",
+     "metaTags":[
+       {"name":"author", "content": "Giovanni Rodighiero"},
+       {"name":"keywords", "content": "Stuck in the flow, about us, story, biography, app, quick algebra, quick fit, simple bubble shooter, android, windows phone"},
+       {"name":"description", "content": "Who we are and how the project stuck in the flow born."}
+       ],
+     "linkTags":[
+       {"url":"stylesheets/main.css"}
+     ],
+     "bootstrapjs": "javascript/bootstrap.min.js",
+     "idMain":"about"
+   },
+  "study":[
+      {
+      "title" : "Quick Algebra | Stuck In The Flow",
+      "metaTags":[
+        {"name":"author", "content": "Giovanni Rodighiero"},
+        {"name":"keywords", "content": "Stuck in the flow, Quick algebra, app, matrices, system of equations, algebra, gauss algorithm, android, windows phone"},
+        {"name":"description", "content": "page about the app Quick Algebra which perform basic matrices operations, solves algebra problems and systems of equations"}
+        ],
+      "linkTags":[
+        {"url":"../stylesheets/main.css"}
+      ],
+      "appName":"Quick Algebra",
+      "otherVersion":"Quick Algebra Free",
+      "appPath":"QuickAlgebra",
+      "otherVersionPath":"QuickAlgebraFree.html",
+      "price":"Paid, no ",
+      "descBreve":"Quick Algebra solves linear algebra problems, matrices and systems of equations.",
+      "descBrevePlus":"This is the full version and provides access to all the functions, but a free version is also available, learn more by visiting the page",
+      "descr":"Quick Algebra is a math application that you can use to solve simple linear algebra problems, such as analyzing matrices or systems of equations, without saying no to a user-friendly interface and nice aesthetics.",
+      "listItems":[
+        "Find the determinant of a square matrix.",
+        "Find the rank of a matrix.",
+        "Find the inverse of a square matrix.",
+        "Solve a system of linear equations.",
+        "Analyze an isometry in a vector or Euclidean space.",
+        "Simplify (through Gauss’ algorithm) a matrix or a system of linear equations.",
+        "Sum two matrices.",
+        "Multiply two matrices.",
+        "Multiply a matrix by a number.",
+        "Raise a square matrix to a power.",
+        "Find the transpose of a matrix."
+      ],
+      "bootstrapjs": "../javascript/bootstrap.min.js",
+      "idMain":"appDetails"
+      },
+      {
+        "title" : "Quick Algebra Free | Stuck In The Flow",
+        "metaTags":[
+          {"name":"author", "content": "Giovanni Rodighiero"},
+          {"name":"keywords", "content": "Stuck in the flow, Quick algebra Free, app, free, matrices, system of equations, algebra, gauss algorithm, android, windows phone"},
+          {"name":"description", "content": "page about the app Quick Algebra Free which perform basic matrices operations, solves algebra problems and systems of equations"}
+          ],
+        "linkTags":[
+          {"url":"../stylesheets/appDetails.css"}
+        ],
+        "appName":"Quick Algebra Free",
+        "otherVersion":"Quick Algebra",
+        "appPath":"QuickAlgebraFree",
+        "otherVersionPath":"QuickAlgebraFree.html",
+        "price":"Free, with ",
+        "descBreve":"Quick Algebra Free solves linear algebra problems, matrices and systems of equations.",
+        "descBrevePlus":"This is the free version with limited number of functions,  but a complete version is also available, learn more by visiting the page",
+        "descr":"Quick Algebra Free is a math application that you can use to solve simple linear algebra problems, such as analyzing matrices or systems of equations, without saying no to a user-friendly interface and nice aesthetics.",
+        "listItems":[
+          "Find the determinant of a square matrix.",
+          "Find the rank of a matrix.",
+          "Find the inverse of a square matrix.",
+          "Sum two matrices.",
+          "Multiply two matrices.",
+          "Multiply a matrix by a number.",
+          "Raise a square matrix to a power.",
+          "Find the transpose of a matrix."
+        ],
+        "bootstrapjs": "../javascript/bootstrap.min.js",
+        "idMain":"appDetails"
+      },
+      {
+        "title" : "Quick Fit | Stuck In The Flow",
+        "metaTags":[
+          {"name":"author", "content": "Giovanni Rodighiero"},
+          {"name":"keywords", "content": "Stuck in the flow, Quick Fit, app, free, linear regression, weighted linear regression, exponential regression, dataset, plot regression,android"},
+          {"name":"description", "content": "page about the app Quick Fit which perform regression on some data"}
+          ],
+        "linkTags":[
+          {"url":"../stylesheets/appDetails.css"}
+        ],
+        "appName":"Quick Fit",
+        "appPath":"QuickFit",
+        "price":"Free, no ",
+        "descBreve":"Quick Fit is an useful tool when you need to perform a regression on some data.",
+        "descr":"With Quick Fit you can insert some data and perform linear or exponential regressions on it. You can save data series so that you never lose them, and plot graphs of you regressions. This app uses AndroidPlot, huge thanks to them !",
+        "listItems":[
+          "Save a serie of numeric data.",
+          "Plot a linear regression.",
+          "Plot a weighted linear regression.",
+          "Plot a exponention regression."
+        ],
+        "bootstrapjs": "../javascript/bootstrap.min.js",
+        "idMain":"appDetails"
+      }
+    ],
+  "freeTime":[
+    {
+      "title" : "Simple Bubble Shooter | Stuck In The Flow",
+      "metaTags":[
+        {"name":"author", "content": "Giovanni Rodighiero"},
+        {"name":"keywords", "content": "Stuck in the flow, Simple Bubble Shooter, app, free, game, free time, arcade, puzzle, casual game, android"},
+        {"name":"description", "content": "page about the app Simple Bubble Shooter which is the classic bubble shooter game with arcade and puzzle mode"}
+        ],
+      "linkTags":[
+        {"url":"../stylesheets/appDetails.css"}
+      ],
+      "appName":"Simple Bubble Shooter",
+      "appPath":"SimpleBubbleShooter",
+      "price":"Free, no ",
+      "descBreve":"Simple Bubble Shooter is the classic bubble shooter game with a flat and minimal design.",
+      "descr":"Simple Bubble Shooter refers to the classic game of bubble shooter offering predefined scenarios where you can prove your skills and also the possibility to create other levels in a random way throught the setting of some parameters with a value you decide.",
+      "listItems":[
+        "Puzzle mode with predefined scenarios and best score saving.",
+        "Arcade mode with random scenarios.",
+        "It is possible to set the number of rows in the arcade mode.",
+        "It is possible to set the number of columns in the arcade mode.",
+        "It is possible to set the number of bubbles shot before the line advances in the arcade mode."
+      ],
+      "bootstrapjs": "../javascript/bootstrap.min.js",
+      "idMain":"appDetails"
+    }
+  ]
+}

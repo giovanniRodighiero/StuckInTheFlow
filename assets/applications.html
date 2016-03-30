@@ -1,0 +1,103 @@
+{% extends "headerAndFooter.html" %}
+<!-- HEADER -->
+{% block header %}
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="index.html">Home</a></li>
+  <li class="dropdown custom-active">
+    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apps <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li class="active">All apps</li>
+      <li role="separator" class="divider"></li>
+      <li><a href="applications/QuickAlgebra.html">Quick Algebra</a></li>
+      <li><a href="applications/QuickAlgebraFree.html">Quick Algebra Free</a></li>
+      <li><a href="applications/QuickFit.html">Quick Fit</a></li>
+      <li><a href="applications/SimpleBubbleShooter.html">Simple Bubble Shooter</a></li>
+    </ul>
+  </li>
+  <li><a href="about.html">About</a></li>
+</ul>
+{% endblock %}
+<!-- BREADCRUMBS -->
+{% block breadcrumbs%}
+<div id="path">
+  <ol class="breadcrumb">
+  <li><a href="index.html">Home</a></li>
+  <li class="active"><abbr title="applications">Apps</abbr></li>
+</ol>
+</div>
+{% endblock%}
+<!-- MAIN -->
+{% block main %}
+<header id="pageTitle">
+  <h1 class="title">What we built so far.</h1>
+</header>
+  <section>
+    <div class="subtitle">
+      <header>
+        <span class=" icon glyphicon glyphicon-education"></span>
+        <h2>Some <abbr title="applications">apps</abbr> to help you study.</h2>
+      </header>
+    </div>
+  <div  class="appsMade container-fluid">
+    <div class="row">
+      {% for app in studyApps %}
+        <article class="app col-md-6 col-sm-12">
+          <h1>{{app.appName}}</h1>
+          <p class="price">{{app.price}}<abbr title="advertisements">ads</abbr>.</p>
+          <img src="images/App/{{app.appPath}}/icona.jpg" alt="icon of {{app.appName}} application" class="img-circle">
+          <p class="desc-breve">{{app.descBreve}}<br> {{app.descBrevePlus}}</p>
+          <div class="sistOp">
+            {% if app.appName == 'Quick Algebra' or app.appName == 'Quick Algebra Free' %}
+              <span># Android</span>
+              <span># Windows Phone</span>
+            {% else %}
+              <span># Android</span>
+            {% endif %}
+          </div>
+          <a class="btn btn-standard btn-lg" href="applications/{{app.appPath}}.html" role="button">Jump to {{app.appName}}</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+  <section>
+    <div class="subtitle">
+      <header>
+        <span class=" icon glyphicon glyphicon-send"></span>
+        <h2>Some <abbr title="applications">apps</abbr> for your free time.</h2>
+      </header>
+    </div>
+    <div class="appsMade container-fluid">
+    <div class="row">
+      {% for app in freeTimeApps %}
+        <article class="app col-md-6 col-sm-12">
+          <h1>{{app.appName}}</h1>
+          <p class="price">{{app.price}}<abbr title="advertisements">ads</abbr>.</p>
+          <img src="images/App/{{app.appPath}}/icona.jpg" alt="icon of {{app.appName}} application" class="img-circle">
+          <p class="desc-breve">{{app.descBreve}}<br> {{app.descBrevePlus}}</p>
+          <div class="sistOp">
+            {% if app.appName == 'Simple Bubble Shooter' %}
+              <span># Android</span>
+            {% endif %}
+          </div>
+          <a class="btn btn-standard btn-lg" href="applications/{{app.appPath}}.html" role="button">Jump to {{app.appName}}</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block mappa %}
+    <article class="col-sm-6">
+      <p>Site's map</p>
+      <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><abbr title="applications">Apps</abbr></li>
+        <li><a href="applications/QuickAlgebra.html">Quick Algebra</a></li>
+        <li><a href="applications/QuickAlgebraFree.html">Quick Algebra Free</a></li>
+        <li><a href="applications/QuickFit.html">Quick Fit</a></li>
+        <li><a href="applications/SimpleBubbleShooter.html">Simple Bubble Shooter</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </article>
+{% endblock %}

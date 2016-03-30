@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block header %}
+<ul class="nav navbar-nav navbar-right">
+  <li class="active">Home</li>
+  <li  class="dropdown">
+    <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apps <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li><a href="applications.html">All apps</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="applications/QuickAlgebra.html">Quick Algebra</a></li>
+      <li><a href="applications/QuickAlgebraFree.html">Quick Algebra Free</a></li>
+      <li><a href="applications/QuickFit.html">Quick Fit</a></li>
+      <li><a href="applications/SimpleBubbleShooter.html">Simple Bubble Shooter</a></li>
+    </ul>
+  </li>
+  <li><a href="about.html">About</a></li>
+</ul>
+{% endblock %}

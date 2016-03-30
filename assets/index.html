@@ -1,0 +1,46 @@
+{% extends "headerAndFooter.html" %}
+{% block main %}
+<section id="intro">
+  <header>
+      <h1 class="animated slideInDown"> Stuck In The Flow <span id="cell" class="glyphicon glyphicon-phone"></span> <small><br>simple applications for smartphones and tablets, available for Android and Windows Phones systems.</small></h1>
+  </header>
+</section>
+<div class="container-fluid">
+<section id="apps">
+  <header>
+    <h1>Made for students, by students.</h1>
+  </header>
+  <div class="row">
+    <article class="col-sm-6 col-xs-12 animated slideInLeft">
+      <span class=" icon glyphicon glyphicon-education"></span>
+      <div class="category">
+        <h2><abbr title="applications">Apps</abbr> to help you <span class="grey">studying</span>.</h2>
+        <h3>They could be useful to:</h3>
+          <ul class="descr">
+            <li>Perform regressions on some data.</li>
+            <li>Resolve linear algebra problems.</li>
+            <li>Analyze an isometry in a vector or Euclidean space.</li>
+            <li>Perfom all the basics and more frequent operations on matrixes.</li>
+          </ul>
+      </div>
+    </article>
+    <article class=" col-sm-6 col-xs-12 animated slideInRight">
+      <span class=" icon glyphicon glyphicon-send"></span>
+      <div class="category">
+        <h2><abbr title="applications">Apps</abbr> for your <span class="grey">free time</span>.</h2>
+        <h3>They could be useful to:</h3>
+          <ul class="descr">
+            <li>Relax after an intense study session.</li>
+            <li>Keep you busy on downtimes.</li>
+            <li>Challenge your friends.</li>
+          </ul>
+      </div>
+      </article>
+  </div>
+</section>
+</div>
+<section id="learnMore">
+  <h1>Browse all our applications and learn more about them. </h1>
+  <a class="btn btn-standard btn-lg" href="applications.html" role="button">All the <abbr title="applications">apps</abbr></a>
+</section>
+{% endblock %}

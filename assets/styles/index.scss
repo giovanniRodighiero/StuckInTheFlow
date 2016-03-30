@@ -1,0 +1,81 @@
+@import "shared";
+#index #intro{
+  background-color: $blue;
+  color: white;
+  padding: 1em;
+}
+#index #intro h1{
+  font-weight: normal;
+  font-size: 2.4em;
+}
+#index #intro small{
+  font-style: italic;
+  color: #eee;
+  font-size: 70%;
+}
+#index #intro header{
+  border-left: 1px solid white;
+  padding-left: 2em;
+  margin-left: 1em;
+}
+#index #apps header{
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1em;
+}
+#index #apps header h1{
+  margin-bottom: 0px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+#index #apps{
+  margin-bottom: 2em;
+}
+#index .category{
+  border-left: 1px solid $blue;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+#index .category ul{
+  text-align: left;
+}
+#index .row{
+  margin-left: 2em;
+}
+#index .category h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-weight: normal;
+  font-size: 2em;
+}
+#index .grey{
+  color: #777;
+  font-weight: bold;
+}
+#index  .icon{
+  text-align: center;
+  font-size: 5em;
+  margin-left: 30%;
+}
+#index #learnMore{
+  padding: 0.5em;
+  text-align: center;
+  background-color: $blue;
+  color: white;
+}
+#index #learnMore h1{
+  margin: 0px;
+  font-weight: normal;
+  margin-bottom: 1em;
+  font-size: 2.4em;
+}
+#index #learnMore a{
+  color: white;
+  border: 3px solid white;
+  border-radius: 0px;
+  font-size: 150%;
+  &:hover{
+    color: $blue;
+    background-color: white;
+  }
+}

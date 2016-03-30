@@ -1,0 +1,13 @@
+@import "shared";
+#path .breadcrumb{
+  background-color: white;
+  margin-left: 1em;
+  border-radius: 0px;
+  li a{
+    color: $blue;
+  }
+  .active{
+    font-weight: bold;
+    color: $blue;
+  }
+}

@@ -1,0 +1,29 @@
+@import "shared";
+footer{
+  border-top: 1px solid $blue;
+  color: $blue;
+}
+footer a{
+  color: $blue;
+  &:hover{
+    color: $blue;
+  }
+}
+footer .list{
+  margin-left: 2em;
+  list-style-type: circle;
+}
+footer .list .active{
+  list-style-type: none;
+  font-weight: bold;
+}
+footer p{
+  margin-left: 1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+footer .copyright{
+  text-align: center;
+  font-size: 0.9em;
+  font-style: italic;
+}

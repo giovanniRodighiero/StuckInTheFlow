@@ -1,0 +1,78 @@
+@import "shared";
+#applications {
+  #pageTitle{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1em;
+    .title{
+      font-weight: normal;
+      font-size: $grande;
+      margin: 0px;
+    }
+  }
+  .subtitle{
+    background-color: $blue;
+    color: white;
+    padding: 1em;
+    header{
+      border-left: 1px solid white;
+      padding-left: 1em;
+      margin-left: 1em;
+    }
+    .icon{
+      display: inline;
+      font-size: $grande;
+    }
+    h2{
+      display: inline;
+      font-size: 2em;
+      font-weight: normal;
+      margin-left: 1em;
+    }
+  }//end subtitle
+  .appsMade .row{
+    margin-left: 2em;
+    .app{
+      text-align: center;
+      margin-bottom: 4em;
+      margin-top: 1em;
+      font-size: 110%;
+        h1{
+          font-weight: normal;
+          border-bottom: 1px solid $blue;
+        }
+        .price{
+          font-weight: bold;
+        }
+        img{
+          width: 30%;
+        }
+        .desc-breve{
+          text-align: left;
+          margin-left: 2em;
+          padding-left: 3em;
+          padding-right: 3em;
+          border-left: 1px solid $blue;
+          margin-bottom: 2em;
+        }
+        .sistOp span{
+          border-left: 1px solid $blue;
+          border-right: 1px solid $blue;
+          padding: 0.5em;
+          font-style: italic;
+        }
+        a{
+          color: $blue;
+          font-weight: bold;
+          border-radius: 0px;
+          margin-top: 2em;
+          border: 3px solid $blue;
+          padding: 1em;
+          &:hover{
+            color: white;
+            background-color: $blue;
+          }
+        }
+    }
+  }
+}
