@@ -2,7 +2,7 @@
 Main repository with the source code and the assets used while developing the website [StuckInTheFlow](http://stuckintheflow.altervista.org/).
 ## What's the site about
 The website has the aim of publicizing the apps made by Stuck In The Flow (a group of three friends) during the years.
-More information can be found in the wesite itsels.
+More information can be found in the wesite itself.
 
 ## Tecnologies and languages involved
 It's a static website and the distribution version is pure html, there is not dynamic page rendering indeed.
