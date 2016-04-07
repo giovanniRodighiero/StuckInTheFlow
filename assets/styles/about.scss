@@ -1,0 +1,61 @@
+@import "shared";
+#about{
+  .title{
+    color: $blue;
+    font-size: $grande;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-weight: normal;
+  }
+  .entry{
+    header{
+      background-color: $blue;
+      padding: 1em;
+    }
+    h2{
+      color: white;
+      margin-left: 2em;
+      font-weight: normal;
+      font-size: 185%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    h3{
+      margin-left: 1em;
+      font-size: 150%;
+    }
+    .description{
+      border-left: 1px solid $blue;
+      margin-left: 2em;
+      padding-left: 1em;
+      margin-top:2em;
+      margin-bottom: 2em;
+    }
+    .row{
+      text-align: center;
+      .member{
+        h3{
+          border-bottom: 1px solid #eee;
+        }
+        ul{
+          border-left: 1px solid $blue;
+          text-align: left;
+          list-style-type: none;
+          margin-left: 7em;
+          li{
+            margin-top: 1em;
+            margin-bottom: 1em;
+          }
+          .profile-link{
+            font-style: italic;
+            display: inline;
+            .logo{
+              display: inline;
+              width: 2em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

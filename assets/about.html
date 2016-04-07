@@ -22,32 +22,32 @@
 <div id="path">
   <ol class="breadcrumb">
   <li><a href="index.html">Home</a></li>
-  <li>About</li>
+  <li class="active">About</li>
 </ol>
 </div>
 {% endblock%}
 {% block main%}
-<section>
   <header>
     <h1 class="title">Something about who we are and what we do.</h1>
   </header>
-  <article>
+  <section class="entry">
     <header>
       <h2>What is Stuck in The Flow ?</h2>
     </header>
-    <div class="description">
-      <p>The Stuck in the Flow project originated from three friends and their will to challenge themselves on the task of building smartphone <abbr title="applications" >apps</abbr>.
-        <p>In the summer of 2013, <span lang="it"> Giovanni, Giulio</span> and <span lang="it">Mattia</span>, pushed by the desire to work on something real after years of studying, decided to venture in the world of app
-           development. After little time the idea of <a href="applications/QuickAlgebra.html">Quick Algebra</a> was born, which marked the beginning of Stuck in the Flow.</p>
-        <p>The name is of course a tribute to the famous forum <a href="http://stackoverflow.com/" target="_blank">Stuckoverflow</a> without which we would not have gone very far, being often quite literally stuck in the flow of ideas and code.</p>
-    </div>
-  </div>
-  </article>
-  <article>
+    <article>
+      <div class="description">
+        <p>The Stuck in the Flow project originated from three friends and their will to challenge themselves on the task of building smartphone <abbr title="applications" >apps</abbr>.
+          <p>In the summer of 2013, <span lang="it"> Giovanni, Giulio</span> and <span lang="it">Mattia</span>, pushed by the desire to work on something real after years of studying, decided to venture in the world of app
+             development. After little time the idea of <a href="applications/QuickAlgebra.html">Quick Algebra</a> was born, which marked the beginning of Stuck in the Flow.</p>
+          <p>The name is of course a tribute to the famous forum <a href="http://stackoverflow.com/" target="_blank">Stuckoverflow</a> without which we would not have gone very far, being often quite literally stuck in the flow of ideas and code.</p>
+      </div>
+    </article>
+  </section>
+  <section class="entry">
     <header>
-      <h2>How are our <abbr title="applications">apps</abbr> born?</h2>
+      <h2>How are our <abbr title="applications">apps</abbr> born ?</h2>
     </header>
-    <div class="app">
+    <article class="app">
       <h3>Quick Algebra</h3>
       <div class="description">
         <p class="desc-storia-app">The first appication we made. The three of us all worked together on it. The idea was to create a simple and fast tool in order to simplify our studying of linear algebra.
@@ -55,24 +55,53 @@
         <p class="link-storia-app">For more informations about Quick Algebra Free (free version), jump to the page <a href="applications/QuickAlgebraFree.html"> Quick Algebra Free</a>.</p>
         <p class="link-storia-app">For more informations about Quick Algebra (complete version), jump to the page <a href="applications/QuickAlgebra.html">Quick Algebra</a>.</p>
       </div>
-    </div>
-    <div class="app">
+    </article>
+    <article class="app">
       <h3>Quick Fit</h3>
       <div class="description">
         <p class="desc-storia-app"><span xml:lang="it">Giulio</span> made this app in order to help his course mates at physics department to perform fast regressions on measured dats. A pity <span lang="it">Giulio</span> and his mates use Windows Phone while the <abbr title="application">app</abbr> is available (for now ...) just for Android systems.</p>
         <p class="link-storia-app">For more informations about Quick Fit, jump to the page <a href="applications/QuickFit.html">Quick Fit</a>.</p>
       </div>
-    </div>
-    <div class="app">
+    </article>
+    <article class="app">
       <h3>Simple Bubble Shooter</h3>
       <div class="description">
-        <p class="desc-storia-app">Very simple game made by <span lang="it">Giovani</span>, it borns as a "final exercise" after his study of the <a href="https://unity3d.com/unity" target="_blank" >Unity</a> development platform,
+        <p class="desc-storia-app">Very simple game made by <span lang="it">Giovanni</span>, it borns as a "final exercise" after his study of the <a href="https://unity3d.com/unity" target="_blank" >Unity</a> development platform,
         focusing on the <abbr title="bidimensional">2D</abbr> part of that. The game was developed entirely throught the <abbr title="integrated development environment">IDE</abbr> provided by Unity and optimised for the release on smartphones running Android.</p>
         <p class="link-storia-app">For more informations about Simple Bubble Shooter, jump to the page <a href="applications/SimpleBubbleShooter.html">Simple Bubble Shooter</a>.</p>
       </div>
+    </article>
+  </section>
+  <section class="entry">
+    <header>
+      <h2>Who are we ?</h2>
+    </header>
+    <div class="container-fluid">
+      <article class="row">
+        <div class="col-sm-4 member">
+          <h3>Giovanni Rodighiero</h3>
+            <ul>
+              <li><a class="profile-link" href="https://github.com/giovanniRodighiero?tab=repositories" target="_blank"> <img class="logo" src="images/github.png" alt="github logo" />  GitHub</a> </li>
+              <li><a class="profile-link" href="https://www.linkedin.com/in/giovannirodighiero" target="_blank"> <img class="logo" src="images/LinkedIn.png" alt="linkedin logo" />   Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 member">
+          <h3>Giulio Foletto</h3>
+            <ul>
+              <li><a class="profile-link" href="https://www.facebook.com/giulio.foletto" target="_blank"> <img class="logo" src="images/fb.png" alt="facebook logo" />   Facebook</a></li>
+              <li><a class="profile-link" href="https://www.linkedin.com/in/giulio-foletto-ab2665b4/it" target="_blank"> <img class="logo" src="images/LinkedIn.png" alt="linkedin logo" />   Linkedin</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 member">
+          <h3>Mattia Bettello</h3>
+            <ul>
+              <li><a class="profile-link" href="#" target="_blank"> <img class="logo" src="images/fb.png" alt="facebook logo" />   Facebook</a></li>
+              <li><a class="profile-link" href="#" target="_blank"> <img class="logo" src="images/LinkedIn.png" alt="linkedin logo" />   Linkedin</a></li>
+            </ul>
+        </div>
+      </article>
     </div>
-  </article>
-</section>
+  </section>
 {% endblock %}
 {% block mappa %}
     <article class="col-xs-6">

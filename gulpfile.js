@@ -50,7 +50,7 @@ gulp.task('about', function () {
       data: content.about,
       path: ['assets/','assets/layout'] // String or Array
     }))
-    .pipe(gulp.dest('dist'));    "mainID"
+    .pipe(gulp.dest('dist'));    
 
     //.pipe(livereload());
 });
@@ -90,4 +90,4 @@ gulp.task('SimpleBubbleShooter', function () {
     .pipe(gulp.dest('dist/applications/'));
     //.pipe(livereload());
 });
-gulp.task('default', ['styles','QuickAlgebra','QuickAlgebraFree','QuickFit','SimpleBubbleShooter','watch']); //'applications','about','QuickAlgebra','QuickAlgebraFree','QuickFit','SimpleBubbleShooter']);
+gulp.task('default', ['styles','about','watch']); //'applications','about','QuickAlgebra','QuickAlgebraFree','QuickFit','SimpleBubbleShooter']);
