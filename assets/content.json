@@ -83,7 +83,7 @@
           {"name":"description", "content": "page about the app Quick Algebra Free which perform basic matrices operations, solves algebra problems and systems of equations"}
           ],
         "linkTags":[
-          {"url":"../stylesheets/appDetails.css"}
+          {"url":"../stylesheets/main.css"}
         ],
         "appName":"Quick Algebra Free",
         "otherVersion":"Quick Algebra",
@@ -114,7 +114,7 @@
           {"name":"description", "content": "page about the app Quick Fit which perform regression on some data"}
           ],
         "linkTags":[
-          {"url":"../stylesheets/appDetails.css"}
+          {"url":"../stylesheets/main.css"}
         ],
         "appName":"Quick Fit",
         "appPath":"QuickFit",
@@ -140,7 +140,7 @@
         {"name":"description", "content": "page about the app Simple Bubble Shooter which is the classic bubble shooter game with arcade and puzzle mode"}
         ],
       "linkTags":[
-        {"url":"../stylesheets/appDetails.css"}
+        {"url":"../stylesheets/main.css"}
       ],
       "appName":"Simple Bubble Shooter",
       "appPath":"SimpleBubbleShooter",
